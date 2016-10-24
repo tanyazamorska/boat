@@ -2,11 +2,11 @@ body {
     height: 665px;
     position: relative;
     background: lightgoldenrodyellow;
-    background: linear-gradient(to bottom,lightgoldenrodyellow 40%, #0d2e66 60%, #091357);
+    background: linear-gradient(to bottom,lightgoldenrodyellow 40%, #0d2e66 60%, #0e3175);
     padding: 0;
     margin: 0;
 }
-.container {
+.boat {
     position: absolute;
     width: 300px;
     height: 300px;
@@ -27,7 +27,7 @@ body {
     border-bottom-right-radius: 170px;
     border-top-left-radius: 20px;
     border-top: 12px solid black;
-    box-shadow: 5px 50px 50px #091357;
+    box-shadow: 5px 50px 100px #091357;
 }
 .triangle-bottomleft {
     width: 0;
@@ -66,35 +66,30 @@ body {
     border-radius: 75px;
     box-shadow: 5px 10px 100px yellow;
 }
-.arrow-down1 {
+
+.bird {
     width: 0;
     height: 0;
+    position: absolute;
+    border-top: 6px solid #484545;
+}
+.bird1 {
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
-    border-top: 6px solid #484545;
-    position: absolute;
     top: 70px;
     right: 20px;
     transform: rotate(-20deg)
 }
-.arrow-down2 {
-    width: 0;
-    height: 0;
+.bird2 {
     border-left: 40px solid transparent;
     border-right: 50px solid transparent;
-    border-top: 6px solid #484545;
-    position: absolute;
     top: 65px;
     right: 120px;
     transform: rotate(-15deg)
 }
-.arrow-down3 {
-    width: 0;
-    height: 0;
+.bird3 {
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-top: 6px solid #484545;
-    position: absolute;
     top: 136px;
     right: 156px;
     transform: rotate(-15deg)
